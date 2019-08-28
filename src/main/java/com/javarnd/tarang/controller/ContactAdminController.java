@@ -33,6 +33,7 @@ public class ContactAdminController {
 	public List<User> getCountries() {
 		logger.info("GetAll Users called");
 		logger.info("Created in Develop branch");
+		logger.info("commiting in develop branch");
 		List<User> listOfUsers = contactService.getAllUsers();
 		return listOfUsers;
 	}

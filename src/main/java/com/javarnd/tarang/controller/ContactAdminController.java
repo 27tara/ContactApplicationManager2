@@ -35,6 +35,7 @@ public class ContactAdminController {
 		logger.info("going to create a new branch...");
 		logger.info("Created in Develop branch");
 		logger.info("commiting in develop branch");
+		logger.info("created in develop");
 		List<User> listOfUsers = contactService.getAllUsers();
 		return listOfUsers;
 	}

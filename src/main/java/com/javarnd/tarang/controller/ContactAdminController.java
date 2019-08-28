@@ -32,6 +32,7 @@ public class ContactAdminController {
 	@GetMapping(value = "/getAllUsers")
 	public List<User> getCountries() {
 		logger.info("GetAll Users called");
+		logger.info("going to create a new branch...");
 		List<User> listOfUsers = contactService.getAllUsers();
 		return listOfUsers;
 	}
